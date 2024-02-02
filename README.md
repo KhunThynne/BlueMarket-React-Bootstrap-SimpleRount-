@@ -2,6 +2,30 @@
 # BlueMarket-React-Bootstrap-SimpleRount-
 (React,Bootstrap,SimpleRount,TypeScript)
 
+
+
+
+
+
+หน้า Home เขียน Responsive แล้ว
+
+![Decktop](https://github.com/KhunThynne/BlueMarket-React-Bootstrap-SimpleRount-/assets/88494232/19960cec-fc62-4a9e-b79e-fb66a3faaa80)
+
+
+![Mobile](https://github.com/KhunThynne/BlueMarket-React-Bootstrap-SimpleRount-/assets/88494232/57f18171-3429-42e6-b4de-7a5eae176a87)
+
+
+
+component ในโปรเจค Alert 2 ตัว ,Modal 2 ตัว
+
+![Decktop (2)](https://github.com/KhunThynne/BlueMarket-React-Bootstrap-SimpleRount-/assets/88494232/b6911c15-a8a3-4f05-aa92-6e7ed8694f18)
+
+![Alert01](https://github.com/KhunThynne/BlueMarket-React-Bootstrap-SimpleRount-/assets/88494232/76c80e3f-08cc-4a18-bc9e-7f49a9d191e6)
+
+![Mobile-Alert(02)](https://github.com/KhunThynne/BlueMarket-React-Bootstrap-SimpleRount-/assets/88494232/c7064d18-1f19-4b7f-89e8-2cc445612c76)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
