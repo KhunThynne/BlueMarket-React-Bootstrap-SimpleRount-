@@ -1,0 +1,70 @@
+
+
+.Background-blackdrop {
+
+
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat, repeat;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    min-width: 100vw;
+    background-size: 100vmax;
+    opacity: 90%;
+
+}
+
+.containerE {
+
+    position: relative;
+    height: 100%;
+    margin: auto;
+    max-width: 1280px;
+    background-color: white;
+
+    height: 100%;
+    min-height: 100vh;
+
+    font-family: 'Kanit', sans-serif !important;
+
+    @media screen and (max-width:1000px) {
+        height: 100%
+    }
+}
+
+.Content {}
+
+.Head {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.BorDerA {
+    border-radius: 18px;
+    border-color: rgba(0, 0, 0, 0.06) !important;
+}
+
+.BorDerA:hover {
+
+
+    border-color: #d28b2d !important;
+}
+
+.text-color {
+    color: #d28b2d;
+}
+
+
+.BorDerB {
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.06) !important;
+    background-color: rgb(235, 235, 235);
+}
+
+.BorDerB:hover {
+    background-color: rgba(70, 70, 70, 0.39);
+
+
+}

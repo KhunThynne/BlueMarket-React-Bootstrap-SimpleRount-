@@ -1,0 +1,215 @@
+.Modal01 {
+    position: absolute;
+    margin: auto;
+    min-width: 500px;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+
+
+
+    .head {
+
+        font-size: xx-large;
+        border-style: solid;
+    }
+
+    .body {
+
+        min-height: 40vh;
+        border-style: solid;
+    }
+
+    .foot {
+
+        border-style: solid;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        min-width: 0;
+        top: 0;
+        height: 100%;
+
+        .head {
+            font-size: xx-large;
+            border-style: solid;
+        }
+
+        .body {
+
+            height: 100%;
+
+
+
+        }
+
+        .foot {
+            position: absolute;
+
+            bottom: 0;
+            width: 100%;
+            border-style: solid;
+
+        }
+    }
+
+}
+
+.Modal02 {
+
+    position: absolute;
+    margin: auto;
+
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, 0);
+    background-color: white;
+
+
+
+    display: inline-block;
+    transition: width 200ms;
+    white-space: nowrap;
+
+    .head {
+
+        font-size: xx-large;
+    
+        height: 100px;
+
+        transition: all 0.8s;
+        border-style: double;
+    }
+
+    .body {
+
+        min-height: 40vh;
+      
+        border-style: double;
+        transition: all 0.8s;
+    }
+
+    .foot {
+       
+        border-style: double;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        min-width: 0;
+        top: 0;
+        height: 100%;
+        transition: all 1s;
+        position: relative;
+
+        .head {
+            font-size: xx-large;
+            border-style: solid;
+
+        }
+
+        .body {
+
+            height: 100%;
+
+
+
+        }
+
+        .foot {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            border-style: solid;
+
+        }
+    }
+
+}
+
+
+
+.modalAnime-enter {
+
+
+
+
+
+
+    width: 0px;
+
+    height: 0px;
+    opacity: 1;
+
+    .Modal02 {
+        .head {
+            height: 0;
+            font-size: 0px;
+            transition: opacity 0.8s;
+            border-style: none;
+            .nav {
+
+                visibility: hidden;
+                opacity: 1;
+                transition: opacity 0.8s;
+            }
+        }
+
+        .body {
+            font-size: 0px;
+
+            min-height: 0vh;
+            border-style: none;
+
+            transition: opacity 0.8s;
+        }
+
+        .foot {
+            border-style: none;
+            font-size: 0px;
+            transition: opacity 0.8s;
+        }
+
+
+    }
+
+}
+
+.modalAnime-active {}
+
+.modalAnime-exit {
+
+
+
+    .Modal02 {
+        .body {}
+    }
+}
+
+.modalAnime-exit-active {
+
+
+
+
+    .Modal02 {
+        .body {
+
+
+
+
+            min-height: 0vh;
+            transition: min-height 300ms;
+
+        }
+    }
+}
+
+.active:active {
+    transition: opacity 300ms, transform 300ms;
+    opacity: 40%;
+}

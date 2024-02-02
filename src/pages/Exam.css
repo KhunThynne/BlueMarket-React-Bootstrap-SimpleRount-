@@ -1,0 +1,24 @@
+.test {
+
+
+    background-color: black;
+}
+
+
+.containerE {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    margin-top: 100px;
+
+    @media screen and (max-width:1000px) {
+        padding: 2px;
+        height: 100%
+    }
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+
+}
