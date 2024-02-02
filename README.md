@@ -7,7 +7,7 @@
 -Bootstap\
 -Firebase\
 -PWA\
--SocketIO\
+-SocketIO
 
 
 Firebase host 
