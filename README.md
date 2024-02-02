@@ -1,7 +1,13 @@
 
-# BlueMarket-React-Bootstrap-SimpleRount-
-(React,Bootstrap,SimpleRount,TypeScript)
+# BlueMarket
 
+-React
+-Simple Route
+-Html CSS Scss 
+-Bootstap
+-Firebase
+-PWA
+-SocketIO
 
 
 Firebase host 
