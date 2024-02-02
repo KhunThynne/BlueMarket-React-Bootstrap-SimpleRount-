@@ -17,12 +17,8 @@ const MenuNav = () => {
                 </div>
                 <div className="mx-3">
                     <Link to="example">Ex</Link>
-                </div>  <div className="mx-3">
-                    <Link to="socketio">socketio</Link>
-                </div>
-                <div className="mx-3">
-                    <Link to="mail">mail</Link>
-                </div>
+                </div> 
+              
                 <div className="ms-auto">
                     <Link to="contact">Contact</Link>
                 </div></>

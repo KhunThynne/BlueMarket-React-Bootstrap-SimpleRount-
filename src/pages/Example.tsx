@@ -11,8 +11,10 @@ const Example = () => {
 
         <div className="containerXD" >
 
-            <div className="border pe-5" style={{ position: `absolute`, right: 0 }}>
-                Sd
+            <div className="border p-5 h-100 text-white d-flex justify-content-center " >
+
+                <h3>
+                    Example  </h3>
             </div>
 
 

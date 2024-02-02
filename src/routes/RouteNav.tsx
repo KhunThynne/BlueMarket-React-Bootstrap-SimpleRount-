@@ -8,7 +8,7 @@ import MenuNav from "../components/MenuNav"
 import Demo from "../pages/Demo"
 import Example from "../pages/Example";
 import PrsocketIOT from "../projects/ProSocket";
-import SendEmail from "../projects/ProSendEmail";
+
 /*
 import Exam from "../Poomz/Exam";
 import Categories from "../Poomz/Pages/Categories";
@@ -24,7 +24,6 @@ const RouteNav = () => {
 
 
 
-                console.log(request.url)
                 redirect(request.url);
                 return null
 
@@ -59,10 +58,7 @@ const RouteNav = () => {
                     element: <NoPage />,
                 },
 
-                {
-                    path: "mail",
-                    element: <SendEmail />,
-                },
+               
 
             ],
         }
