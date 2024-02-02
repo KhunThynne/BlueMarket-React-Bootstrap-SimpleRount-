@@ -1,13 +1,13 @@
 
-# BlueMarket
+# BlueWhiteMarket
 
--React
--Simple Route
--Html CSS Scss 
--Bootstap
--Firebase
--PWA
--SocketIO
+-React\
+-Simple Route\
+-Html CSS Scss \
+-Bootstap\
+-Firebase\
+-PWA\
+-SocketIO\
 
 
 Firebase host 
